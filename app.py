@@ -14,6 +14,11 @@ def index():
     # a) the query term, 'q'
     # b) your API key, 'key'
     # c) how many GIFs to return, 'limit'
+    params = {
+        'q': query,
+        'key': '4MW2HHGJDLMK',
+        'limit' 10:
+    }
 
 
     # TODO: Make an API call to Tenor using the 'requests' library. For
