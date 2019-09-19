@@ -1,0 +1,12 @@
+body {
+    color: red;
+}
+
+.big-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.tenor-gif-embed {
+    text-align: center;
+}
