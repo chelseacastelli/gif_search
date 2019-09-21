@@ -11,12 +11,16 @@
 
 <!-- Make HTML form containing a search box and a submit button to addthe search term to the query string.
      The form should have a target of '/' to send us to the same route. -->
-<h1>GIF Search</h1>
+<div class="header">
+    <h1>GIF Search</h1>
 
-<form action="/">
-    <input type="text" placeholder="Search GIFs" id="query" name="query">
-    <input type="submit" value="Submit">
-</form>
+    <form action="/">
+        <input type="text" placeholder="Search GIFs" id="query" name="query">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<br>
 
 <!--  Make a for loop to loop over GIFs passed in from the server -->
 <!--  For each gif, include the 'gif.html' template to display it -->
