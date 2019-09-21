@@ -21,7 +21,7 @@ def index():
     params = {
         'q': query,
         'key': '4MW2HHGJDLMK',
-        'limit': 18
+        'limit': 10
     }
 #limit changed to 18 to accomodate Grid Layout
     # Make an API call to Tenor using the 'requests' library.
